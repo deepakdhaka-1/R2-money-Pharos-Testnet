@@ -44,6 +44,11 @@ pip install web3 eth-account colorama
 git clone https://github.com/deepakdhaka-1/R2-money-Pharos-Testnet/
 cd R2-money-Pharos-Testnet
 ```
+---
+
+# Workflow 
+Claim faucet from their discord channel - (https://discord.com/invite/eVU4s2ZCF7)
+. Then Run each script one by one. 
 
 ##Script 1 - 
 Approve USDC Spending on the account 
@@ -65,3 +70,5 @@ Main Task staking of R2USDC - frequency 91 times for maximum points
 ```
 python3 main.py
 ```
+--- 
+Recommended Delay in main.py - 480 Seconds, because RPC is skipping many transactions if those are being sent subsquently. 
