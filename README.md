@@ -50,12 +50,12 @@ cd R2-money-Pharos-Testnet
 Claim faucet from their discord channel - (https://discord.com/invite/eVU4s2ZCF7)
 . Then Run each script one by one. 
 
-##Script 1 - 
+## Script 1 - 
 Approve USDC Spending on the account 
 ```
 pythono3 approve.py 
 ```
-##Script 2 - 
+## Script 2 - 
 Covert USDC to R2USDC on the account 
 ``` 
 pythono3 Convert.py
