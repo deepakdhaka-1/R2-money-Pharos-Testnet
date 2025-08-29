@@ -143,7 +143,7 @@ for idx, raw in enumerate(raw_lines, start=1):
                 print(Fore.GREEN + f"✅ Candidate OK: {name}")
                 break
             else:
-                print(Fore.RED + f"✗ Candidate failed (dry-run): {name}")
+                print(Fore.RED + f"✗ Candidate failed (dry-run): {name} - Skip error")
 
         if not chosen:
             print(Fore.RED + "❌ All candidate encodings failed. Skipping this tx.")
