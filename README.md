@@ -71,4 +71,3 @@ Main Task staking of R2USDC - frequency 91 times for maximum points
 python3 main.py
 ```
 --- 
-Recommended Delay in main.py - 120 Seconds, because RPC is skipping many transactions if those are being sent subsquently. 
