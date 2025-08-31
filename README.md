@@ -72,8 +72,3 @@ python3 main.py
 ```
 --- 
 Recommended Delay in main.py - 120 Seconds, because RPC is skipping many transactions if those are being sent subsquently. 
-# Script Supply
-```
-python3 supply.py
-```
-This Will be used to competed Transaction of Task OpenFi. Total 91txn.
